@@ -96,27 +96,59 @@ header {
     background-color: red;
 }
 
-.telfono{
+.telefono{
 
     height: 33.33%;
     width: 100%;
-    background-color: aqua;
+    background-color: var(--amarillo);
+    display: flex;
+}
+
+.icon-place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px ;
+    height: 70%;
+    width: 8rem;
+    background-color: var(--blanco);
+    margin-right: 2rem;
+}
+
+.info-place{
+
+
+    width: 100%;
+    height: 100%;
+    background-color: #4c8bbf;
+
+
 
 }
-/* .redSocial{
 
-    
-    height: 33.33%;
-    width: 100%;
-    background-color: rgb(166, 35, 168);
+.head-place{
+    display: flex;
 
-} */
+    align-items: center;
 
-.sitioWeb{
+background-color: var(--amarillo);
+height: 50%;
+width: 100%;
 
-    height: 33.33%;
-    width: 100%;
-    background-color: rgb(41, 252, 45);
+
+}
+
+.p-place{
+    display: flex;
+
+    align-items: center;
+background-color: #eb781f;
+height: 50%;
+width: 100%;
+
+
+
 
 }
 
@@ -126,13 +158,6 @@ main {
     background-color: chartreuse;
 }
 
-.personal-information{
-    height: 33.33%;
-    width: 100%;
-  /* background-color:; */
-
-
-}
 
 
 
