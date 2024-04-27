@@ -2,14 +2,93 @@
 <html lang="en">
 
 <head>
+    <!-- FUENTE GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ESTILO CSS -->
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <!-- NORMALIZE CSS -->
+    <!-- <link rel="stylesheet" href="./src/styles/normalize.css"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum</title>
 </head>
 
 <body>
-    <h1>Hola Mundo</h1>
-    <h2>Hola</h2>
+
+    <header>
+        <section id="name">
+            <article>
+                <div class="nombre">Kevin</div>
+                <div class="apellido">Alpizar</div>
+                <div class="work">Full Stack</div>
+            </article>
+        </section>
+
+        <section id="picture"></section>
+
+        <section id="info">
+            <article>
+                <div class="telefono">
+                    <div class="icon-place">
+                        <img src="./src/imgs/phone.svg" alt="">
+
+<!-- /nombre-archovp
+./carpeta/archivo -->
+
+
+                    </div>
+                    <div class="info-place">
+                        <div class="head-place">
+                            <h3> Teléfono</h3>
+                        </div>
+                        <div class="head-place">6074-5678</div>
+                    </div>
+                </div>
+
+                <div class="telefono">
+                    <div class="icon-place">
+                        <img src="./src/imgs/email.svg" alt="">
+                    </div>
+                    <div class="info-place">
+                        <div class="head-place">
+                            <h3>Red social</h3>
+                        </div>
+                        <div class="head-place">@sitio</div>
+                    </div>
+                </div>
+
+                <div class="telefono">
+                    <div class="icon-place">
+                        <img src="./src/imgs/web.svg" alt="">
+                       
+                    </div>
+                    <div class="info-place">
+                        <div class="head-place">
+                            <h3>Sitio Web</h3>
+                        </div>
+                        <div class="head-place">www.sitio.com</div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </header>
+    <input type="button" value="PLAY" onclick="play()">
+    <audio id="audio" src="./src/sounds/telephone-ring-03a.wav"></audio>
+    <main>
+        <div class="grid-container">
+            <div class="grid-item"></div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+        </div>
+    </main>
+
+    <script src="./src/ts/script.js"></script>
 </body>
 
 </html>
