@@ -8,5 +8,21 @@ body{
 font-size: 16px; 
 
 
+
+
 }
 
+
+
+/* 
+
+CUSTOM PROPERTIES  */
+
+:root{
+    
+    --amarillo: #fed428;
+    --café: #472206;
+--blanco: #ffffff;
+
+
+}
