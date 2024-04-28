@@ -24,7 +24,53 @@ header {
     width: 100%;
     background-color: aqua;
     display: flex;
+   
+    margin-bottom: 60px;
+    /* box-shadow: 5px 10px #888888; */
+
+ 
+
 }
+
+
+
+/*==================================================
+ * Effect 6
+ * ===============================================*/
+ .effect6
+ {
+     position:relative;
+     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+ }
+ .effect6:before, .effect6:after
+ {
+   content:"";
+     position:absolute;
+     z-index:-1;
+     -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+     -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+     box-shadow:0 0 20px rgba(0,0,0,0.8);
+     top:50%;
+     bottom:0;
+     left:10px;
+     right:10px;
+     -moz-border-radius:100px / 10px;
+     border-radius:100px / 10px;
+ }
+ .effect6:after
+ {
+   right:10px;
+     left:auto;
+     -webkit-transform:skew(8deg) rotate(3deg);
+        -moz-transform:skew(8deg) rotate(3deg);
+         -ms-transform:skew(8deg) rotate(3deg);
+          -o-transform:skew(8deg) rotate(3deg);
+             transform:skew(8deg) rotate(3deg);
+ }
+ 
+
 
 #name {
     display: flex;
@@ -32,6 +78,7 @@ header {
     height: 100%;
     width: 40%;
     background-color: var(--amarillo);
+  
 }
 
 #name > article {
@@ -65,7 +112,7 @@ h2{
       transform: translateX(-40px);
     }
     80% {
-      transform: translateX(20px);
+      transform: translateX(40px);
     }
     100% {
       opacity: 1;
@@ -111,8 +158,14 @@ h2{
     height: 100%;
     width: 20%;
     background-color: rgb(200, 199, 185);
-}
+ 
+    /* -webkit-box-shadow: -6px 39px 93px 29px rgba(0,0,0,1);
+    -moz-box-shadow: -6px 39px 93px 29px rgba(0,0,0,1);
+    box-shadow: -6px 39px 93px 29px rgba(0,0,0,1); */
 
+
+        
+}
 
 
 #info {
@@ -122,6 +175,7 @@ display: flex;
     height: 100%;
     width: 40%;
     background-color: var(--amarillo);
+      /* shadown */
 
 }
 
@@ -215,5 +269,37 @@ main {
     text-align: center;
   }
 
+
+/* 
+RESPONSIVE WEB DESIGNE
+
+--MEDIA QUERIES
+Sintaxis
+
+@media (min-width: 768){
+
+
+
+}
+
+@media (min-with: 9992){
+
+
+} */
+
+/* --Lo que esté fuera del media query se aplica desde los 40px */
+/* 
+--Unestandar para el minimo es 480px */
+@media(min-width: 480px){
+
+
+
+}
+
+@media(min-width: 768px){
+
+
+
+}
 
 
