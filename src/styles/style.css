@@ -44,6 +44,39 @@ header {
     background-color: var(--café);
 }
 
+
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+    animation-name: movenInLeft; /* Aquí se define correctamente el nombre de la animación */
+    animation-duration: 3s;
+}
+
+
+
+
+
+
+@keyframes movenInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-40px);
+    }
+    80% {
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    }
+    
+    
+    
+    
+    
 .nombre{
     display: flex;
     justify-content: center;
@@ -83,24 +116,30 @@ header {
 
 
 #info {
-    display: flex;
+display: flex;
     align-items: center;
+
     height: 100%;
     width: 40%;
     background-color: var(--amarillo);
+
 }
 
 #info > article {
+
+    align-items: center;
     height: 50%;
     width: 80%;
-    background-color: rgb(221, 65, 65);
+    background-color: rgb(233, 20, 20);
+    margin-bottom: 50px;
 }
 
 
 .info-container{
     display: flex;
-
-margin: 2px 0px;
+/* 
+    margin: 10px 0px; */
+padding: 10px 0px;
 
     height: 33.33%;
 width: 100%;
@@ -108,20 +147,11 @@ background-color: #2196F3;
 
 }
 
-.prueba{
-    position: absolute;
-    display: flex;
 
-margin: 2px 0px;
-
-    height: 40px;
-width: position: absolute;;
-background-color: #0b0f13;
-    
-}
 
 
 .icon-place{
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,94 +215,5 @@ main {
     text-align: center;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .capsule{
-    
-    margin-bottom: 50px;
-  }
-  
-
-  .ejemplo1{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-right: 200px;
-    background-color: #007bff;
-    height: 90px;
-width: 99%;
-position: absolute;
-
-}
-
-
-
-
-
-
-.ejemplo1 li {
-color: white;
-display:inline;
- padding-left:30px;
- padding-right:30px;
-font-size: 20px;
-}
-
-
-  
-  .ejemplo2{
-    background-color: rgb(255, 255, 255);
-   
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    height: 90px;
-    width: 99%;
-    position: absolute;
-  }
-     
-  .ejemplo2:hover{
-  
-  
-    width: 20%;
-    transition-duration: 2000ms, 1000ms;
-    transition-timing-function: ease-out;
-
-  }
-
-
-  
-  .provinces{
-  
-border-radius: 4px;
-
-display: flex;
-justify-content: center;
-align-items: center;
-margin-left: 50px ;
-font-size: 40px;
-
-  }
-  
-
-  .ejemplo3{
-    background-color: transparent;
-    height: 90px;
-    width: 80%;
-    margin-left: 19%;
-    position: absolute;
-  }
 
 
