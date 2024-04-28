@@ -1,5 +1,8 @@
-function play() {
-    var audio = document.getElementById("audio");
-    audio.play()
+function play(id) {
+   // let audioPlayer: HTMLMediaElement = document.getElementById(audioId)
+   return id.play()
 
-};
+}
+
+
+

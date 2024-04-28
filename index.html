@@ -5,7 +5,8 @@
     <!-- FUENTE GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!-- ESTILO CSS -->
     <link rel="stylesheet" href="./src/styles/style.css">
@@ -31,13 +32,22 @@
 
         <section id="info">
             <article>
-                <div class="telefono">
-                    <div class="icon-place">
+
+
+
+
+
+
+
+
+
+
+
+                <div class="info-container">
+                    <div class="prueba"></div>
+                    <div type="button" value="PLAY" onmouseover="play(ring)" class="icon-place">
+                        <audio id="ring" src="./src/sounds/telephone-ring.wav"></audio>
                         <img src="./src/imgs/phone.svg" alt="">
-
-<!-- /nombre-archovp
-./carpeta/archivo -->
-
 
                     </div>
                     <div class="info-place">
@@ -48,8 +58,27 @@
                     </div>
                 </div>
 
-                <div class="telefono">
-                    <div class="icon-place">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="info-container">
+                    <div type="button" value="PLAY" onmouseover="play(notification)" class="icon-place">
+                        <audio id="notification" src="./src/sounds/message-notification.wav"></audio>
                         <img src="./src/imgs/email.svg" alt="">
                     </div>
                     <div class="info-place">
@@ -57,13 +86,14 @@
                             <h3>Red social</h3>
                         </div>
                         <div class="head-place">@sitio</div>
-                    </div>
+                    </div>   
                 </div>
 
-                <div class="telefono">
-                    <div class="icon-place">
+                <div class="info-container">
+                    <div type="button" value="PLAY" onmouseover="play(internet)" class="icon-place">
+                        <audio id="internet" src="./src/sounds/security-code.wav"></audio>
                         <img src="./src/imgs/web.svg" alt="">
-                       
+
                     </div>
                     <div class="info-place">
                         <div class="head-place">
@@ -72,11 +102,15 @@
                         <div class="head-place">www.sitio.com</div>
                     </div>
                 </div>
+
+
+
             </article>
         </section>
     </header>
-    <input type="button" value="PLAY" onclick="play()">
-    <audio id="audio" src="./src/sounds/telephone-ring-03a.wav"></audio>
+
+
+
     <main>
         <div class="grid-container">
             <div class="grid-item"></div>
@@ -86,6 +120,24 @@
             <div class="grid-item">5</div>
             <div class="grid-item">6</div>
         </div>
+
+        
+
+        
+    <div class="capsule">
+
+
+        <div class="ejemplo2">
+        
+           <p class="provinces">Provincias</p>
+        </div>
+        
+        <div class="ejemplo3"></div>
+        
+        
+       
+
+</div>
     </main>
 
     <script src="./src/ts/script.js"></script>
