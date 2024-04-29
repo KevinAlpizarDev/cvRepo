@@ -118,10 +118,22 @@ background-color: red;
 
 .lorem-2{
     display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: rgb(36, 181, 181);
+    align-items: end;
+  
+    justify-content: space-around;
+    /* PUEDE QUE SEA CENTER */
+    background-color: rgb(116, 181, 36);
     height: 50%;
     width: 100%;
+}
+
+.lorem-2-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border-radius: 50%;
+width: 20%;
+height: 50%;
+background-color: blue;
+
 }
