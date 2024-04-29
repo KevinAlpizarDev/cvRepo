@@ -88,22 +88,113 @@ header {
     font-size: 40px;
     height: 75%;
     width: 50%;
+
     background-color: var(--café);
 }
 
+     @media (max-width: 1030px) {
+    #name > article {
+   
+        width: 80%;
+    
+    
+    }
+  } 
 
-h1{
-    font-size: 60px;
-}
-h2{
-    font-size: 40px;
+  
+  @media (max-width: 888px) {
+    #name > article {
+   
+        width: 80%;
+    
+    
+    }
+  } 
+
+  @media (max-width: 616px) {
+    #name > article {
+   
+        width: 100%;
+    
+    
+    }
+  } 
+
+
+
+
+ h2{
+    font-size: 20px;
     animation-name: movenInLeft; /* Aquí se define correctamente el nombre de la animación */
     animation-duration: 3s;
 }
 
 
+.nombre{
+
+font-size: 30px;
+
+}
+
+.work > h2 {
+    font-size: 30px; 
+}
+.apellido{
+    font-size: 30px;
+}
+
+/* 
+
+RESPONSIVE WEB DESIGNE
+
+--MEDIA QUERIES
+Sintaxis
 
 
+
+@media (min-with: 750){
+
+    #name > article {
+        align-content: end;
+        justify-content: center;
+    
+        width: 70%;
+       
+     
+    }
+    
+
+}  */
+
+/* --Lo que esté fuera del media query se aplica desde los 40px */
+/* 
+--Unestandar para el minimo es 480px */
+/* @media(min-width: 480px){
+
+
+
+}
+
+@media(min-width: 768px){
+
+
+
+}
+ */
+
+
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+    height: 25%;
+    width: 100%;
+    background-color: var(--amarillo);
+    color: var(--negro);
+
+}
 
 
 @keyframes movenInLeft {
@@ -144,16 +235,6 @@ h2{
     color: var(--blanco);
 }
 
-.work{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25%;
-    width: 100%;
-    background-color: var(--amarillo);
-    color: var(--negro);
-
-}
 #picture {
     height: 100%;
     width: 20%;
@@ -197,7 +278,7 @@ padding: 10px 0px;
 
     height: 33.33%;
 width: 100%;
-background-color: #2196F3;
+background-color:var(--amarillo)
 
 }
 
@@ -216,6 +297,16 @@ background-color: #2196F3;
     background-color: var(--blanco);
     margin-right: 2rem;
 }
+
+
+@media (max-width: 599px) {
+  
+      
+        .icon-place {
+    width: 5rem;
+    }
+  } 
+
 
 .info-place{
 
