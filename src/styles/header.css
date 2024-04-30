@@ -26,8 +26,8 @@ header {
     background-color: aqua;
     display: flex;
    
-    margin-bottom: 60px;
-    /* box-shadow: 5px 10px #888888; */
+    margin-bottom: 30px;
+
 
  
 
@@ -80,6 +80,7 @@ header {
     width: 40%;
     background-color: var(--amarillo);
   
+  
 }
 
 #name > article {
@@ -90,9 +91,43 @@ header {
     height: 75%;
     width: 50%;
 
+
     background-color: var(--café);
 }
 
+     @media (max-width: 1030px) {
+    #name > article {
+   
+        width: 80%;
+    
+    
+    }
+  } 
+
+  
+  @media (max-width: 888px) {
+    #name > article {
+   
+        width: 80%;
+    
+    
+    }
+  } 
+
+  @media (max-width: 616px) {
+    #name > article {
+   
+        width: 100%;
+    
+    
+    }
+  } 
+
+
+
+
+ h2{
+    font-size: 20px;
      @media (max-width: 1030px) {
     #name > article {
    
@@ -144,44 +179,6 @@ font-size: 30px;
     font-size: 30px;
 }
 
-/* 
-
-RESPONSIVE WEB DESIGNE
-
---MEDIA QUERIES
-Sintaxis
-
-
-
-@media (min-with: 750){
-
-    #name > article {
-        align-content: end;
-        justify-content: center;
-    
-        width: 70%;
-       
-     
-    }
-    
-
-}  */
-
-/* --Lo que esté fuera del media query se aplica desde los 40px */
-/* 
---Unestandar para el minimo es 480px */
-/* @media(min-width: 480px){
-
-
-
-}
-
-@media(min-width: 768px){
-
-
-
-}
- */
 
 
 .work{
@@ -204,6 +201,7 @@ Sintaxis
       transform: translateX(-40px);
     }
     80% {
+      transform: translateX(40px);
       transform: translateX(40px);
     }
     100% {
@@ -240,14 +238,12 @@ Sintaxis
     height: 100%;
     width: 20%;
     background-color: rgb(200, 199, 185);
- 
-    /* -webkit-box-shadow: -6px 39px 93px 29px rgba(0,0,0,1);
-    -moz-box-shadow: -6px 39px 93px 29px rgba(0,0,0,1);
-    box-shadow: -6px 39px 93px 29px rgba(0,0,0,1); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+background-image: url("../imgs/mark.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 
-
-        
-}
+    }
 
 
 #info {
@@ -257,6 +253,7 @@ display: flex;
     height: 100%;
     width: 40%;
     background-color: var(--amarillo);
+      /* shadown */
       /* shadown */
 
 }
@@ -280,6 +277,7 @@ padding: 10px 0px;
     height: 33.33%;
 width: 100%;
 background-color:var(--amarillo)
+background-color:var(--amarillo)
 
 }
 
@@ -298,6 +296,16 @@ background-color:var(--amarillo)
     background-color: var(--blanco);
     margin-right: 2rem;
 }
+
+
+@media (max-width: 599px) {
+  
+      
+        .icon-place {
+    width: 5rem;
+    }
+  } 
+
 
 
 @media (max-width: 599px) {
