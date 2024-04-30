@@ -198,7 +198,7 @@ font-size: 30px;
     color: var(--blanco);
 }
 
-#picture {
+.picture {
     height: 100%;
     width: 20%;
     background-color: rgb(200, 199, 185);
