@@ -31,7 +31,36 @@ height: 120rem;
         grid-template-columns: auto  ;
       
       }
+
+      .nombre{
+        font-size: 30px;
+      }
+      .apellido{
+      font-size:   30px;
+      }
   
+      #name > articule {
+width: 100%;
+
+      }
+
+      .nombre{
+
+        font-size: 20px;
+      }
+.apellido{
+    font-size: 20px;
+}
+
+
+.rote-font-text > h4{
+
+    font-size: 20px;
+
+
+}     
+
+
   } 
 
 
