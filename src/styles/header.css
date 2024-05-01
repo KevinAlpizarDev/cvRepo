@@ -25,7 +25,7 @@ header {
     width: 100%;
     background-color: aqua;
     display: flex;
-    margin-bottom: 2.5rem;
+    
 
 
 
@@ -76,7 +76,7 @@ header {
     display: flex;
     justify-content: end;
     height: 100%;
-    width: 35%;
+    width: 40%;
     background-color: var(--amarillo);
 
 }
@@ -202,7 +202,7 @@ font-size: 30px;
 
 .picture {
     height: 100%;
-    width: 30%;
+    width: 20%;
     background-color: rgb(200, 199, 185);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     background-image: url("../imgs/mark.jpg");    
@@ -217,7 +217,7 @@ background-size: cover;
         align-items: center;
     
         height: 100%;
-        width: 35%;
+        width: 40%;
         background-color: var(--amarillo);
           /* shadown */
     
@@ -401,25 +401,3 @@ width: 100%;
 
 
 
-
-
-/*
-RESPONSIVE WEB DESIGNE
-
---MEDIA QUERIES
-Sintaxis
-
-@media (min-width: 768){
-
-
-
-}
-
-@media (min-with: 9992){
-
-
-} */
-
-/* --Lo que esté fuera del media query se aplica desde los 40px */
-/*
---Unestandar para el minimo es 480px */
