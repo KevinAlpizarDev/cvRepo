@@ -25,11 +25,10 @@ header {
     width: 100%;
     background-color: aqua;
     display: flex;
-   
-    margin-bottom: 30px;
+    margin-bottom: 2.5rem;
 
 
- 
+
 
 }
 
@@ -70,16 +69,16 @@ header {
           -o-transform:skew(8deg) rotate(3deg);
              transform:skew(8deg) rotate(3deg);
  }
- 
+
 
 
 #name {
     display: flex;
     justify-content: end;
     height: 100%;
-    width: 40%;
+    width: 35%;
     background-color: var(--amarillo);
-  
+
 }
 
 #name > article {
@@ -95,31 +94,31 @@ header {
 
      @media (max-width: 1030px) {
     #name > article {
-   
-        width: 80%;
-    
-    
-    }
-  } 
 
-  
+        width: 80%;
+
+
+    }
+  }
+
+
   @media (max-width: 888px) {
     #name > article {
-   
+
         width: 80%;
-    
-    
+
+
     }
-  } 
+  }
 
   @media (max-width: 616px) {
     #name > article {
-   
+
         width: 100%;
-    
-    
+
+
     }
-  } 
+  }
 
 
 
@@ -138,7 +137,7 @@ font-size: 30px;
 }
 
 .work > h2 {
-    font-size: 30px; 
+    font-size: 30px;
 }
 .apellido{
     font-size: 30px;
@@ -167,17 +166,20 @@ font-size: 30px;
     }
     80% {
       transform: translateX(40px);
+      color: #ffffff;
+    
+
     }
     100% {
       opacity: 1;
       transform: translateX(0);
     }
     }
-    
-    
-    
-    
-    
+
+
+
+
+
 .nombre{
     display: flex;
     justify-content: center;
@@ -186,7 +188,7 @@ font-size: 30px;
     width: 100%;
     background-color: var(--café);
     color: var(--amarillo);
-}
+}    
 
 .apellido{
     display: flex;
@@ -196,53 +198,157 @@ font-size: 30px;
     width: 100%;
     background-color: var(--café);
     color: var(--blanco);
-}
+}    
 
 .picture {
     height: 100%;
-    width: 20%;
+    width: 30%;
     background-color: rgb(200, 199, 185);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-background-image: url("../imgs/mark.jpg");
+    background-image: url("../imgs/mark.jpg");    
 background-repeat: no-repeat;
 background-size: cover;
 
     }
-
-
-#info {
-display: flex;
-    align-items: center;
-
-    height: 100%;
-    width: 40%;
-    background-color: var(--amarillo);
-      /* shadown */
-
-}
-
-#info > article {
-
-    align-items: center;
-    height: 50%;
-    width: 80%;
-    background-color: rgb(233, 20, 20);
-    margin-bottom: 50px;
-}
-
-
-.info-container{
+/* header en SE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/    
+    
+    #info {
     display: flex;
-/* 
-    margin: 10px 0px; */
-padding: 10px 0px;
+        align-items: center;
+    
+        height: 100%;
+        width: 35%;
+        background-color: var(--amarillo);
+          /* shadown */
+    
+    }
+    
+    #info > article {
+    
+        align-items: center;
+        height: 50%;
+        width: 80%;
+        background-color: rgb(233, 20, 20);
+        margin-bottom: 50px;
+    }
+    
+    
+    .info-container{
+        display: flex;
+    /*
+        margin: 10px 0px; */
+    padding: 10px 0px;
+    
+        height: 33.33%;
+    width: 100%;
+    background-color:var(--amarillo)
+    
+    }
+    
+    @media (max-width: 430px) {
 
-    height: 33.33%;
-width: 100%;
-background-color:var(--amarillo)
+        .picture {
+
+            height: 0%;
+            width: 0%;
+
+        }    
+
+
+            #name {
+
+                width:50%;
+                align-items: stretch;
+
+            }    
+            #info{
+
+                width: 50%;
+            }
+ 
+       .nombre{ 
+font-size: 26px;           
+
+       }
+
+       .apellido{
+
+        font-size: 22px;   
+
+       } 
+
+
+.box effecto6{   
+
+height: 30%;    
 
 }
 
+
+/* FULL STACK */
+       .work > h2 {
+         font-size: 17px;  
+     }    
+     /* BODY */
+    body{
+   padding: 0px;     
+   width: 100%;
+   background-color: #472206;
+
+    }
+
+
+
+header{
+
+height: 30rem;    
+width: 100%;
+
+}
+
+
+
+
+
+.grid-item {
+
+    padding: 0px;
+    background-color: #fed428;
+}    
+
+/* 
+MAIN AAAAAAAAAAAAAAAAAAAAAAAA */
+
+.rote-font-text > h4{
+
+    font-size: 12px;
+
+
+}     
+
+
+.grid-item{
+
+padding:  10px;    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /* ffffffffffffffffff */
+      } 
+      
 
 
 
@@ -261,12 +367,12 @@ background-color:var(--amarillo)
 
 
 @media (max-width: 599px) {
-  
-      
+
+
         .icon-place {
     width: 5rem;
     }
-  } 
+  }
 
 
 .info-place{
@@ -297,7 +403,7 @@ width: 100%;
 
 
 
-/* 
+/*
 RESPONSIVE WEB DESIGNE
 
 --MEDIA QUERIES
@@ -315,7 +421,7 @@ Sintaxis
 } */
 
 /* --Lo que esté fuera del media query se aplica desde los 40px */
-/* 
+/*
 --Unestandar para el minimo es 480px */
 @media(min-width: 480px){
 
