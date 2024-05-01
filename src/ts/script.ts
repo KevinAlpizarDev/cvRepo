@@ -31,14 +31,14 @@ function playFuntion(id: HTMLMediaElement) {
 //  FUNCION MEDIA QUERY
 
 
-const mediaPhoto = matchMedia("(max-width: 616px)");
+// const mediaPhoto = matchMedia("(max-width: 616px)");
 
-const changeSize  = function(mql: MediaQueryList) {  
-    mql.matches ? document.body.style.background = "red"
-    : document.body.style.background = "yellow"
-  };  
+// const changeSize  = function(mql: MediaQueryList) {  
+//     mql.matches ? document.body.style.background = "red"
+//     : document.body.style.background = "yellow"
+//   };  
 
-mediaPhoto.addEventListener("change", changeSize, mql )
-  //do something
-  changeSize(mediaPhoto)
+// mediaPhoto.addEventListener(changeSize)
+//   //do something
+//   changeSize(mediaPhoto)
 

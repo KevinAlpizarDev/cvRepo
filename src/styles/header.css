@@ -25,11 +25,10 @@ header {
     width: 100%;
     background-color: aqua;
     display: flex;
-   
-    margin-bottom: 30px;
+    margin-bottom: 2.5rem;
 
 
- 
+
 
 }
 
@@ -70,7 +69,7 @@ header {
           -o-transform:skew(8deg) rotate(3deg);
              transform:skew(8deg) rotate(3deg);
  }
- 
+
 
 
 #name {
@@ -79,7 +78,7 @@ header {
     height: 100%;
     width: 40%;
     background-color: var(--amarillo);
-  
+
 }
 
 #name > article {
@@ -95,31 +94,31 @@ header {
 
      @media (max-width: 1030px) {
     #name > article {
-   
-        width: 80%;
-    
-    
-    }
-  } 
 
-  
+        width: 80%;
+
+
+    }
+  }
+
+
   @media (max-width: 888px) {
     #name > article {
-   
+
         width: 80%;
-    
-    
+
+
     }
-  } 
+  }
 
   @media (max-width: 616px) {
     #name > article {
-   
+
         width: 100%;
-    
-    
+
+
     }
-  } 
+  }
 
 
 
@@ -138,7 +137,7 @@ font-size: 30px;
 }
 
 .work > h2 {
-    font-size: 30px; 
+    font-size: 30px;
 }
 .apellido{
     font-size: 30px;
@@ -173,11 +172,11 @@ font-size: 30px;
       transform: translateX(0);
     }
     }
-    
-    
-    
-    
-    
+
+
+
+
+
 .nombre{
     display: flex;
     justify-content: center;
@@ -208,6 +207,125 @@ background-repeat: no-repeat;
 background-size: cover;
 
     }
+/* header en SE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+    @media (max-width: 376px) {
+
+
+        .box effect6{
+width: 200%;
+
+
+        }
+        .picture {
+
+            height: 0%;
+            width: 0%;
+
+        }
+
+
+            #name {
+
+                width:70%;
+                align-items: stretch;
+
+            }
+       #info{
+
+           width: 50%;
+
+       }
+
+       .nombre{
+font-size: 26px;
+
+       }
+
+       .apellido{
+
+        font-size: 22px;
+
+       }
+
+
+
+
+
+/* FULL STACK */
+       .work > h2 {
+         font-size: 17px;
+     }
+     /* BODY */
+    body{
+   padding: 0px;
+   width: 100%;
+   background-color: #472206;
+
+    }
+
+
+
+header{
+
+height: 30rem;
+
+
+}
+
+.info-container{
+
+
+}
+
+
+html{
+    margin: 0px;
+}
+
+
+.grid-item {
+
+    padding: 0px;
+    background-color: #fed428;
+}
+
+/* 
+MAIN AAAAAAAAAAAAAAAAAAAAAAAA */
+
+.rote-font-text > h4{
+
+    font-size: 12px;
+
+
+} 
+
+
+.grid-item{
+
+padding:  10px;
+
+}
+rote-font-text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /* ffffffffffffffffff */
+      }
 
 
 #info {
@@ -215,7 +333,7 @@ display: flex;
     align-items: center;
 
     height: 100%;
-    width: 40%;
+    width: 50%;
     background-color: var(--amarillo);
       /* shadown */
 
@@ -233,7 +351,7 @@ display: flex;
 
 .info-container{
     display: flex;
-/* 
+/*
     margin: 10px 0px; */
 padding: 10px 0px;
 
@@ -261,12 +379,12 @@ background-color:var(--amarillo)
 
 
 @media (max-width: 599px) {
-  
-      
+
+
         .icon-place {
     width: 5rem;
     }
-  } 
+  }
 
 
 .info-place{
@@ -297,7 +415,7 @@ width: 100%;
 
 
 
-/* 
+/*
 RESPONSIVE WEB DESIGNE
 
 --MEDIA QUERIES
@@ -315,7 +433,7 @@ Sintaxis
 } */
 
 /* --Lo que esté fuera del media query se aplica desde los 40px */
-/* 
+/*
 --Unestandar para el minimo es 480px */
 @media(min-width: 480px){
 
