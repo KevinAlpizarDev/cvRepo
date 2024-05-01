@@ -1,15 +1,10 @@
-const button: HTMLElement | null = document.getElementById("#name");
-
-
-    // setInterval( function (){
-    //     button?.onmousedown
-        
-    //     } ,2000); 
-
 
 function playFuntion(id: HTMLMediaElement) {
     return id.play()
 }
+
+
+
 
 
  // PARA EL ELEMENTO H1
@@ -42,83 +37,28 @@ function playFuntion(id: HTMLMediaElement) {
 // FUNCION PARA LA PRIMER BARRA Ruby On Rails
 
 var i = 0;
-function move() {
+
+function move(id: HTMLElement,porcent: number) {
   if (i == 0) {
     i = 1;
-    var elem = document.getElementById("rubyOnRails");
-    var width = 10;
-    var identificador = setInterval(frame, 10);
+   
+    var width = 0;
+    var identificador = setInterval(frame, 40);
+  
+
     function frame() {
-      if (width >= 100) {
+      if (width >= porcent) {
         clearInterval(identificador);
         i = 0;
-      } else {
+      }
+       else {
         width++;
-        elem!.style.width = width + "%";
-        elem!.innerHTML = width  + "%";
+        id!.style.width = width + "%";
+    
       }
     }
+
+
   }
 }
 
-
-
-// FUNCION PARA LA PRIMER BARRA Typescript
-
-
-var i = 0;
-function move2() {
-  if (i == 0) {
-    i = 1;
-    var elem = document.getElementById("typescript");
-    var width = 10;
-    var identificador = setInterval(frame, 10);
-    function frame() {
-      if (width >= 100) {
-        clearInterval(identificador);
-        i = 0;
-      } else {
-        width++;
-        elem!.style.width = width + "%";
-        elem!.innerHTML = width  + "%";
-      }
-    }
-  }
-}
-
-
-
-
-// FUNCION PARA LA PRIMER BARRA Para otro
-
-
-var i = 0;
-function move3() {
-  if (i == 0) {
-    i = 1;
-    var elem = document.getElementById("otra");
-    var width = 10;
-    var identificador = setInterval(frame, 10);
-    function frame() {
-      if (width >= 100) {
-        clearInterval(identificador);
-        i = 0;
-      } else {
-        width++;
-        elem!.style.width = width + "%";
-        elem!.innerHTML = width  + "%";
-      }
-    }
-  }
-}
-
-
-
-
-// function playFuntion(id: HTMLMediaElement) {
-//     return id.play()
-// }
-// <div type="button" value="PLAY" onmouseover="playFuntion(notification)" class="icon-place">
-// <audio id="notification" src="./src/sounds/message-notification.wav"></audio>
-// <img src="./src/imgs/email.svg" alt="">
-// </div>

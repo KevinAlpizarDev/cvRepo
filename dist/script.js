@@ -1,5 +1,4 @@
 "use strict";
-const button = document.getElementById("#name");
 function playFuntion(id) {
     return id.play();
 }
@@ -14,61 +13,19 @@ const textoh2 = document.createTextNode("Alpizar");
 elementoPadre2.appendChild(apellidoUsuario);
 apellidoUsuario.appendChild(textoh2);
 var i = 0;
-function move() {
+function move(id, porcent) {
     if (i == 0) {
         i = 1;
-        var elem = document.getElementById("rubyOnRails");
-        var width = 10;
-        var identificador = setInterval(frame, 10);
+        var width = 0;
+        var identificador = setInterval(frame, 40);
         function frame() {
-            if (width >= 100) {
+            if (width >= porcent) {
                 clearInterval(identificador);
                 i = 0;
             }
             else {
                 width++;
-                elem.style.width = width + "%";
-                elem.innerHTML = width + "%";
-            }
-        }
-    }
-}
-var i = 0;
-function move2() {
-    if (i == 0) {
-        i = 1;
-        var elem = document.getElementById("typescript");
-        var width = 10;
-        var identificador = setInterval(frame, 10);
-        function frame() {
-            if (width >= 100) {
-                clearInterval(identificador);
-                i = 0;
-            }
-            else {
-                width++;
-                elem.style.width = width + "%";
-                elem.innerHTML = width + "%";
-            }
-        }
-    }
-}
-var i = 0;
-function move3() {
-    if (i == 0) {
-        i = 1;
-        var elem = document.getElementById("otra");
-        var width = 10;
-        var identificador = setInterval(frame, 10);
-        function frame() {
-            if (width >= 100) {
-                clearInterval(identificador);
-                i = 0;
-            }
-            else {
-                width++;
-                elem.style.width = width + "%";
-                elem.innerHTML = width + "%";
+                id.style.width = width + "%";
             }
         }
     }
