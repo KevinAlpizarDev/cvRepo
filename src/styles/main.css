@@ -12,7 +12,7 @@ height: 120rem;
    height: 100%;
     grid-template-columns: auto auto ;
     background-color: var(--blanco);
-    padding: 10px;
+  
   }
   .grid-item {
     background-color: var(--blanco);
@@ -375,7 +375,8 @@ justify-content: center;
 margin-top: 20px;
   height: 100%;
   width: 100%;
-  background-color: black;
+  /* background-color: black; */
+  background-color: var(--blanco);
 }
 
 .progress-coonteiner{
@@ -383,8 +384,8 @@ align-items: center;
 margin-top: 60px;
   height: 100%;
   width: 90%;
-  background-color: aqua;
-
+  /* background-color: aqua; */
+  background-color: var(--blanco);
 }
 
 .label{
@@ -420,10 +421,29 @@ ESTILO DE BARRA DE PROGRESO  */
   background-color: #ddd;
 }
 
-#myBar {
+
+#rubyOnRails {
   width: 10%;
   height: 30px;
-  background-color: #04AA6D;
+  background-color: #ed5331;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+#typescript {
+  width: 10%;
+  height: 30px;
+  background-color: #1d6ad6;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+#otra {
+  width: 10%;
+  height: 30px;
+  background-color: #c6e52a;
   text-align: center;
   line-height: 30px;
   color: white;
