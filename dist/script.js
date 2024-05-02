@@ -17,8 +17,8 @@ function move(id, porcent) {
     if (i == 0) {
         i = 1;
         var width = 0;
-        var identificador = setInterval(frame, 40);
-        function frame() {
+        var identificador = setInterval(barra, 20);
+        function barra() {
             if (width >= porcent) {
                 clearInterval(identificador);
                 i = 0;
