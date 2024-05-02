@@ -1,5 +1,5 @@
 "use strict";
-function playFuntion(id) {
+function playFunction(id) {
     return id.play();
 }
 const elementoPadre = document.querySelector(".nombre");
