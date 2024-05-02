@@ -1,4 +1,4 @@
-function playFunction(id: HTMLMediaElement) {
+function playFuntion(id: HTMLMediaElement) {
   return id.play();
 }
 
