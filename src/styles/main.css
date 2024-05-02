@@ -79,7 +79,7 @@ width: 100%;
 
   } 
 
-  NOMBRES DE BOTONES
+  /* NOMBRES DE BOTONES */
 
 
 
@@ -236,7 +236,7 @@ display: block;
     /* PUEDE QUE SEA CENTER */
     /* background-color: rgb(116, 181, 36); */
     background-color: var(--blanco);
-    height: 50%;
+    height: 45%;
     width: 100%;
 }
 
@@ -247,7 +247,7 @@ display: block;
     justify-content: center;
 border-radius: 50%;
 width: 20%;
-height: 60%;
+height: 50%;
 /* background-color: blue; */
 background-color: var(--amarillo);
 
@@ -388,6 +388,7 @@ ESTILO DE BARRA DE PROGRESO  */
 #myProgress {
   width: 100%;
   background-color: #ddd;
+  border: 1px solid black;
 }
 
 
@@ -397,11 +398,32 @@ ESTILO DE BARRA DE PROGRESO  */
   align-items: center;
   width: 10%;
   height: 30px;
-  background-color: #ed5331;
+  background-color: #cc0000;
   text-align: center;
   line-height: 30px;
   color: white;
 }
+
+.unique1:hover{
+  background-color: #e40505;
+
+
+}
+
+.unique2:hover{
+  background-color: #3791ea;
+
+
+}
+
+
+.unique3:hover{
+  background-color: rgb(97, 95, 95);
+
+
+}
+
+
 
 #typescript {
   display: flex;
@@ -409,7 +431,7 @@ ESTILO DE BARRA DE PROGRESO  */
   align-items: center;
   width: 10%;
   height: 30px;
-  background-color: #1d6ad6;
+  background-color: #2d79c7;
   text-align: center;
   line-height: 30px;
   color: white;
@@ -421,18 +443,43 @@ ESTILO DE BARRA DE PROGRESO  */
   align-items: center;
   width: 10%;
   height: 30px;
-  background-color: var(--blanco);
+  background-color: #00d8ff;
   text-align: center;
   line-height: 30px;
-  color: white;
+  color: #00d8ff;
 }
 
-.unique{
+.unique1{
   display: flex;
   justify-content: center;
   align-items: end;
   margin-top: 4px;
   margin-bottom: 4px;
+  background-color: #cc0000;
+  color: var(--blanco);
+  border-radius: 5px;
+}
+
+.unique2{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: #2d79c7;
+  color: var(--blanco);
+  border-radius: 5px;
+}
+
+.unique3{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color:var(--negro);
+  color: #00d8ff;
+  border-radius: 5px;
 }
 
 @media (max-width: 376px) {
@@ -442,12 +489,14 @@ ESTILO DE BARRA DE PROGRESO  */
 
   }
   .rote-font-text > h4{
+    
       font-size: 16px;
       color:black;
       background-color: var(--amarillo);
   }
 
   .rote-font-text{
+    height: 100%;
      font-size: 16px;
      color:black;
      background-color: var(--amarillo);
@@ -457,6 +506,7 @@ ESTILO DE BARRA DE PROGRESO  */
     margin-right: 20px;
     height: 89%;
    }
+   
 
    .lenguajes{
 
@@ -503,3 +553,41 @@ LENGUAJES */
 
   display: flex;
 }
+
+
+.last-last{
+width: 100%;
+
+height: 50%;
+background-color: #cc0000;
+
+}
+
+.last-icons{
+
+  display: flex;
+  align-items: center;
+justify-content: space-around;
+
+  height: 100%;
+  width: 100%;
+  background-color: var(--blanco);
+}
+
+.icons-last{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 20%;
+  background-color: var(--blanco);
+}
+
+
+
+
+
+
+
+
+

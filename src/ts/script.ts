@@ -1,4 +1,4 @@
-function playFunction(id: HTMLMediaElement) {
+function playFuntion(id: HTMLMediaElement) {
   return id.play();
 }
 
@@ -21,21 +21,21 @@ elementoPadre2!.appendChild(apellidoUsuario);
 apellidoUsuario.appendChild(textoh2);
 
 // FUNCION PARA LA PRIMER BARRA Ruby On Rails
-var i = 0;
+let i = 0;
 
 function move(id: HTMLElement, porcent: number) {
   if (i == 0) {
       i = 1;
-      var width = 0;
-      var identificador = setInterval(frame, 40);
+      let width = 0;
+      const identificador = setInterval(barra, 20);
 
-      function frame() {
-          if (width >= porcent) {
-              clearInterval(identificador);
+      function barra() {
+          if (width >= porcent) { //variable comparada con el porcentaje de experiencia
+              clearInterval(identificador); //para detener el evento de llamada 
               i = 0;
           } else {
-              width++;
-              id!.style.width = width + "%";
+              width++; //Ancho aumenta en uno
+              id!.style.width = width + "%"; //Aumento en uno aplicado al estilo
           }
       }
   }
