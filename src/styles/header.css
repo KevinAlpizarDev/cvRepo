@@ -8,7 +8,7 @@ body {
 }
 
 :root {
-    /* CUSTOM PROPERTIES */
+    /* OM PROPERTIES */
     --amarillo: #fed428;
     --café: #472206;
     --blanco: #ffffff;
@@ -25,11 +25,6 @@ header {
     width: 100%;
     background-color: aqua;
     display: flex;
-    
-
-
-
-
 }
 
 
@@ -88,7 +83,6 @@ header {
     font-size: 40px;
     height: 75%;
     width: 50%;
-
     background-color: var(--café);
 }
 
@@ -174,7 +168,7 @@ font-size: 30px;
       opacity: 1;
       transform: translateX(0);
     }
-    }
+}
 
 
 
@@ -206,46 +200,46 @@ font-size: 30px;
     background-color: rgb(200, 199, 185);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     background-image: url("../imgs/mark.jpg");    
-background-repeat: no-repeat;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     }
 /* header en SE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/    
     
     #info {
     display: flex;
-        align-items: center;
+    align-items: center;
     
-        height: 100%;
-        width: 40%;
-        background-color: var(--amarillo);
+    height: 100%;
+    width: 40%;
+    background-color: var(--amarillo);
           /* shadown */
     
     }
     
     #info > article {
     
-        align-items: center;
-        height: 50%;
-        width: 80%;
-        background-color: rgb(233, 20, 20);
-        margin-bottom: 50px;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+    background-color: rgb(233, 20, 20);
+    margin-bottom: 50px;
     }
     
     
     .info-container{
-        display: flex;
-    /*
-        margin: 10px 0px; */
+    display: flex;
     padding: 10px 0px;
-    
-        height: 33.33%;
+    height: 33.33%;
     width: 100%;
     background-color:var(--amarillo)
     
     }
     
     @media (max-width: 540px) {
+        .cuadro-roted-font{
+            height: 37px;
+        }
 
         .picture {
 
@@ -253,6 +247,7 @@ background-size: cover;
             width: 0%;
 
         }    
+
 
 
             #name {
@@ -265,7 +260,7 @@ background-size: cover;
 
                 width: 50%;
             }
- 
+
        .nombre{ 
 font-size: 26px;           
 
