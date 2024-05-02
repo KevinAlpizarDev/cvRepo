@@ -9,23 +9,19 @@ height: 120rem;
 
 .grid-container {
     display: grid;
-   height: 100%;
+    height: 100%;
     grid-template-columns: auto auto ;
     background-color: var(--blanco);
   
   }
   .grid-item {
     background-color: var(--blanco);
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 20px;
-   
     text-align: center;
   }
 
 
   .lorem-2-2{
-
-
     height: 100%;
     width: 100%;
     background-color: black;
@@ -34,7 +30,18 @@ height: 120rem;
 
 
 @media (max-width: 850px) {
-  
+
+
+
+.grid-item {
+    background-color: var(--blanco);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 35px;
+
+
+}
+
+
     .grid-container {
       background-color: black;
         grid-template-columns: auto  ;
@@ -64,7 +71,7 @@ width: 100%;
 
 .rote-font-text > h4{
 
-    font-size: 20px;
+    font-size: 14px;
 
 
 }     
@@ -72,6 +79,7 @@ width: 100%;
 
   } 
 
+  NOMBRES DE BOTONES
 
 
 
@@ -91,45 +99,6 @@ width: 100%;
 
 
 
-
-
-  /* .main-principal{
-    display: flex;
-    width: 100%;
-    height: 120rem;
-    background-color: rgb(54, 195, 78);
-}
-.grid-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: auto auto ;
-    background-color: #2196F3;
-       
-  
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-
-  }
-
-
-
-  @media (max-width: 376px) {
-  
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto ;
-        background-color: #2196F3;
-        padding: 10px;
-        width: 100%;
-      }
-
-} 
 
 
 
@@ -192,7 +161,7 @@ margin-right: 20px;
 height: 100%;
 width: 15%;
 /* width: 10%; */
-background-color: blueviolet;
+background-color: var(--amarillo);
 
 
 }
@@ -423,6 +392,9 @@ ESTILO DE BARRA DE PROGRESO  */
 
 
 #rubyOnRails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 10%;
   height: 30px;
   background-color: #ed5331;
@@ -432,6 +404,9 @@ ESTILO DE BARRA DE PROGRESO  */
 }
 
 #typescript {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 10%;
   height: 30px;
   background-color: #1d6ad6;
@@ -441,16 +416,90 @@ ESTILO DE BARRA DE PROGRESO  */
 }
 
 #react {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 10%;
   height: 30px;
-  background-color: #36b6e5;
+  background-color: var(--blanco);
   text-align: center;
   line-height: 30px;
   color: white;
 }
 
 .unique{
-margin-top: 4px;
-
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 4px;
   margin-bottom: 4px;
+}
+
+@media (max-width: 376px) {
+  .cuadro-roted-font{
+      height: 37px;
+      margin-bottom: -6px;
+
+  }
+  .rote-font-text > h4{
+      font-size: 16px;
+      color:black;
+      background-color: var(--amarillo);
+  }
+
+  .rote-font-text{
+     font-size: 16px;
+     color:black;
+     background-color: var(--amarillo);
+     align-items: end;
+   }
+   .roted-font {
+    margin-right: 20px;
+    height: 89%;
+   }
+
+   .lenguajes{
+
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    }
+}
+
+
+/* LOGO LENGUAJES */
+.logo-lenguajes{
+    height: 80%;
+    width: 80%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* //////// */
+
+
+.progress-color{
+
+  height: 100%;
+  width: 0%;
+  background-color: #f88a71;
+}
+
+
+/* 
+LENGUAJES */
+
+.lenguajes{
+
+  display: flex;
 }
